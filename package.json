@@ -1,0 +1,16 @@
+{
+  "name": "merng-socialmediatut",
+  "version": "1.0.0",
+  "description": "Tutorial for building a full stack social media app with MERNG Tech Stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ugochukwu Onwuzurike",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.5"
+  }
+}

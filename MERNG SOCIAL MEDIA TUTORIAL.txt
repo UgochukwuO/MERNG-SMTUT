@@ -1,0 +1,7 @@
+MERNG SOCIAL MEDIA TUTORIAL
+To cd into another drive. - cd /d f:
+
+cd /d f:SoftwareDevelopment\GqlApolloTut\fullstack-tutorial\start\server
+
+Username:
+UgoAdmin
