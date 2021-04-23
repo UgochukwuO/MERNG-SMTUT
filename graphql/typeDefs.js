@@ -16,12 +16,13 @@ module.exports = gql`
     }
     input RegisterInput {
         username: String!
-        paswword: String!
-        confirmpassword: String!
+        password: String!
+        confirmPassword: String!
         email: String!
     }
     type Query {
         getPosts: [Post]
+        getUsers: [User]
     }
     type Mutation{
         register(registerInput: RegisterInput): User!
