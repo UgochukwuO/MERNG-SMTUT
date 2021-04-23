@@ -5,3 +5,10 @@ cd /d f:SoftwareDevelopment\GqlApolloTut\fullstack-tutorial\start\server
 
 Username:
 UgoAdmin
+P62egmAiLQX32PYA
+
+
+creates server hot reload - npm i -D nodemon 
+"scripts": {
+	"start": "nodemon index"
+}
