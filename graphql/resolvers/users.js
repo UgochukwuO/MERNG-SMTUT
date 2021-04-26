@@ -119,7 +119,7 @@ module.exports = {
     // Query to retrieve a list of all users
     async getUsers() {
       try {
-        const users = await User.find(); // Gets a list of all Users
+        const users = await User.find().sort({ createdAt: -1 }); // Gets a list of all Users
         return users;
       } catch (err) {
         throw new Error(err);
